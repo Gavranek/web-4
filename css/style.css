@@ -99,7 +99,7 @@ border: 5px solid #000000;
         background-color: rgb(70, 174, 167);
     }
     
-    @media screen and (min-width: 360px) {
+    @media screen and (min-width: 1000px) {
 
           .main {
             display: flex;
