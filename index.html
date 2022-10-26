@@ -1,27 +1,38 @@
-    <!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="C:\Users\79914\Desktop\html\assets\css\style.css">
-        <title>Задание 1</title>
-    </head>
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+   </head>
     <body>
-        <div class="main">
-        <header class="header">
-                <div class="header_cont">
-                   <img src="https://dtischencko.github.io/image.png" alt="">
-                
-                    <div style=" padding:50px;">Index.html</div>
-                    </div>  
+        <header class="container-fluid">
+            <div class="container-lg header-contentt">
+                <div class="header">
+                   <img src="https://dtischencko.github.io/image.png" alt="" >
+                </div>
+            </div>
         </header>
-        <nav>
-            <div><a href="#list">Список ссылок</a></div>
-            <div><a href="#form">Форма</a></div>
-            <div><a href="#footer">Подвал</a></div>
-          </nav>
-    <div class="link" id="link">
+                <nav class="container-lg text-center mt-2">
+<div class="container-fluid">
+              <div class="row justify-content-between">   
+            <div class="col-xl-4 col-sm-12 "><a href="#list">Ссылки</a></div>
+            <div class="col-xl-4 col-sm-12 "><a href="#form">Форма</a></div>
+           <div class="col-xl-4 col-sm-12 "><a href="#footer">Подвал</a></div>
+              </div> 
+    </nav>
+   
+       <div class="container-fluid main mt-2" id="main">   
+    <div class="row" id="link">
+        <div class="col-md-12 main_box mt-4 order-sm-1">
+            <div class="container-fluid content-main">
         <ol class="link list">
     <li>
         <a href="http://example.com">абсолютную гиперссылку на главную страницу сайта example.com</a>
@@ -121,7 +132,11 @@
 
 </ol>
 </div>
-
+</div>
+</div>
+</div>
+<div class="col-md-12 main_box mt-4 order-sm-2">
+<div class="container-fluid content-main text-center">
 <form class="form" action="https://www.example.com" method="POST"  id="form">          
     <label>
            Имя:<br>
@@ -173,13 +188,14 @@
         
                </label><br>
                <label>
-                   Сверхспособности:<br>
-                   <select name="p" multiple="multiple">
-                   <option value="immortality">Бессмертие</option>
-                   <option value="passingthroughwalls">Прохождение сквозь стены</option>
-                   <option value="levitation" selected="selected">Левитация</option>
-                   </select>
-               </label><br>
+                Сверхспособности:
+                <br />
+                <select name="field-name[]" multiple="multiple" size="3">
+                  <option value="Значение 1">Бессмертие</option>
+                  <option value="Значение 2">Прохождение сквозь стены</option>
+                  <option value="Значение 3">Левитация</option>
+                </select>
+              </label><br>
                <label>
                  Биография:<br>
                  <textarea > </textarea>
@@ -192,10 +208,10 @@
                </label><br>
                <input type="submit" value="Отправить">
            </form>
-           <table class="table" id="table">
-            <caption>
-                Таблица
-            </caption>
+        </div>
+    </div> 
+    <div class="col-md-12 main_box mt-4 order-sm-3">
+           <table class="table table-striped" id="table">
             <tbody col span="3">
                 <tr>
                 <th>Колонка 1</th>
@@ -225,7 +241,8 @@
               </tr>
             </tbody>
         </table>
-        </div>
+    </div>
+</div>
 <footer class="footer" id="footer">
     <div class="footer__inner">
         <span>(c) Николай Гавранек 2022</span>
