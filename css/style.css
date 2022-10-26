@@ -40,6 +40,7 @@
         align-items: center;
         background-color: aquamarine;
         border: 1px solid black;
+	    margin: 0 auto;
     }
     input, select, textarea{
         outline: none;
@@ -57,6 +58,7 @@
     header{
         background-color: rgb(70, 174, 167);
   border-bottom: 5px solid #000000;
+	    margin: 0 auto;
     }
     .main {
       background-color: rgb(140, 239, 232);
