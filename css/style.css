@@ -1,6 +1,5 @@
 
     *{
-   *{
         font-size: 20px;
         box-sizing: border-box;
     }
@@ -29,15 +28,18 @@
     a:hover{
         text-decoration: underline;
     }
-    table{
+    .table{
         border-collapse: collapse;
+        border: 1px solid black;
         
     }
     th, td{
         border: 1px solid black;
     }
-    form{
+    .form{
         align-items: center;
+        background-color: aquamarine;
+        border: 1px solid black;
     }
     input, select, textarea{
         outline: none;
@@ -90,7 +92,7 @@ border: 5px solid #000000;
     }
    
     tr:nth-child(even){
-        background-color: #f41f1f;
+        background-color: #621ff4;
     }
     .footer{
         align-items: center;
@@ -107,17 +109,17 @@ border: 5px solid #000000;
             
             order: 1;
           }
-          nav {
+          .navi {
             order: 2;
           }
           .link{
             order:3;
         }
         .table{
-            order:5;
+            order:4;
         }
         .form{
-            order: 6;
+            order: 5;
         }
          
           footer {
