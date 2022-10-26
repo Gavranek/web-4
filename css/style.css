@@ -1,4 +1,5 @@
 
+    
     *{
         font-size: 20px;
         box-sizing: border-box;
@@ -40,7 +41,6 @@
         align-items: center;
         background-color: aquamarine;
         border: 1px solid black;
-	    margin: 0 auto;
     }
     input, select, textarea{
         outline: none;
@@ -58,7 +58,6 @@
     header{
         background-color: rgb(70, 174, 167);
   border-bottom: 5px solid #000000;
-	    margin: 0 auto;
     }
     .main {
       background-color: rgb(140, 239, 232);
@@ -92,6 +91,9 @@ border: 5px solid #000000;
     .container{
         width: 100%;
     }
+    #name{
+display: inline;
+    }
    
     tr:nth-child(even){
         background-color: #621ff4;
@@ -101,7 +103,7 @@ border: 5px solid #000000;
         background-color: rgb(70, 174, 167);
     }
     
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 360px) {
 
           .main {
             display: flex;
