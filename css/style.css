@@ -5,6 +5,7 @@
         box-sizing: border-box;
     }
     body{
+    max-width: 960px;
 		color:#4B0082;
 		background-color:	#a484f6;
     }
