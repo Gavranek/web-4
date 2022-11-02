@@ -104,8 +104,11 @@ display: inline;
         align-items: center;
         background-color: rgb(70, 174, 167);
     }
+.link{
+	min-width: 960px
+}
     
-    @media screen and (min-width: 360px) {
+    @media screen and (min-width: 1000px) {
 
           .main {
             display: flex;
