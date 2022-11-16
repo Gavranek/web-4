@@ -2,7 +2,7 @@
   font-size: 20px;
   box-sizing: border-box;
 }
-body{
+  body{
 color:#4B0082;
 background-color:	#a484f6;
 }
@@ -29,7 +29,6 @@ a:hover{
   text-decoration: underline;
 }
 .table{
-margin:0 auto;
   border-collapse: collapse;
   border: 1px solid black;
   
@@ -38,13 +37,11 @@ th, td{
   border: 1px solid black;
 }
 .form{
-  margin: 0 auto;
-  align-items: center;
+
   background-color: aquamarine;
   border: 1px solid black;
 }
 input, select, textarea{
-  outline: none;
   border: 1px solid#e5e5e5;
 }
 input[type=submit],[type=radio], [type=date]{
@@ -53,92 +50,27 @@ input[type=submit],[type=radio], [type=date]{
 input[type=submit]{
   background-color: rgb(255, 255, 255);
 }
-textarea{
-  resize: none;
-}
+
 header{
   background-color: rgb(70, 174, 167);
 border-bottom: 5px solid #000000;
-}
-.main {
-  margin: 0 auto;
-background-color: rgb(140, 239, 232);
-border: 5px solid #000000;
-
 }
 .slist {
 background-color: rgb(140, 239, 232);
 border: 5px solid #000000;
 }
-.col-md-12.main_box.mt-4.order-sm-1 {
-padding: 0 0 0 0;
-}
-.col-md-12.main_box.mt-4.order-sm-3 {
-padding: 0;
-}
-.col-md-12.main_box.mt-4.order-sm-2 {
-padding: 0;
-}
+
 img {
   border: 3px solid #000000;
-}
-.header_cont {
-  padding: 15px 10px 0 10px;
-  clear: both;
-}
-.header_cont div {
-  display: inline-block;
-  padding: 25px 0 0 10px;
-}
-
-.container{
-  width: 100%;
-}
-#name{
-display: inline;
 }
 
 tr:nth-child(even){
   background-color: #621ff4;
 }
 .footer{
-  align-items: center;
   background-color: rgb(70, 174, 167);
 }
-
-
-@media screen and (min-width: 960px) {
-
-    .main {
-      display: flex;
-margin: 0 auto;
-    }
-    .form{
-  margin: 0 auto;
-    }
-    .table{
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    
-    header {
-      
-      order: 1;
-    }
-    .navi {
-      order: 2;
-    }
-    .link{
-      order:3;
-  }
-  .table{
-      order:4;
-  }
-  .form{
-      order: 5;
-  }
-   
-    footer {
-      order: 6;
-    }
+.link {
+background-color: rgb(140, 239, 232);
+border: 5px solid #000000;
 }
